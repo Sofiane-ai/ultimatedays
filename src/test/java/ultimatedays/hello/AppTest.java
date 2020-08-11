@@ -18,6 +18,11 @@ public class AppTest
     public AppTest( String testName )
     {
         super( testName );
+        try {
+        throw new RuntimeException("erreur pour simuler");
+        }catch(Exception e) {
+        	e.printStackTrace();
+        }
     }
 
     /**

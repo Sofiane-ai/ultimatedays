@@ -13,6 +13,6 @@ public class App
         
     }
     public static String getValue() {
-    	return "Coucou ";
+    	return "Coucou !";
     }
 }
